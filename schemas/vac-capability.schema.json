@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/vad-8a/vac-capability.schema.json",
+  "title": "VAD-8A VAC Capability",
+  "type": "object",
+  "required": ["name", "version", "status", "trigger", "input", "agents", "workflow", "output", "verify", "exception", "owner"],
+  "properties": {
+    "name": {"type": "string", "minLength": 1},
+    "version": {"type": "string", "pattern": "^v?[0-9]+\\.[0-9]+\\.[0-9]+$"},
+    "status": {"enum": ["draft", "verified", "deprecated"]},
+    "owner": {"type": "string", "minLength": 1},
+    "trigger": {"type": "object"},
+    "input": {"type": "object"},
+    "context": {"type": "object"},
+    "agents": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "tools": {"type": "array", "items": {"type": "string"}},
+    "rules": {"type": "array", "items": {"type": "string"}},
+    "workflow": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "output": {"type": "object"},
+    "verify": {
+      "type": "object",
+      "required": ["kpi", "pass_threshold"],
+      "properties": {
+        "kpi": {"type": "array", "items": {"type": "string"}},
+        "pass_threshold": {"type": "string"}
+      }
+    },
+    "exception": {"type": "object"},
+    "human_approval_required": {"type": "boolean"},
+    "applicable_scope": {"type": "string"},
+    "known_limitations": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

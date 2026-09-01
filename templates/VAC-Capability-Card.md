@@ -1,0 +1,21 @@
+# VAC Capability Card
+
+- **Capability Name**:
+- **Version**:
+- **Status**: draft / verified / deprecated
+- **Owner**:
+- **Trigger**:
+- **Input**:
+- **Context**:
+- **Agent(s)**:
+- **Tools / Connectors**:
+- **Rules**:
+- **Workflow**:
+- **Output**:
+- **Verify KPI**:
+- **Pass Threshold**:
+- **Exception Handling**:
+- **Human Approval Required**:
+- **Audit Log**:
+- **Applicable Scope**:
+- **Known Limitations**:

@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use VAD-8A in teaching, research, consulting, or enterprise adoption, please cite this repository."
+title: "VAD-8A: AI to Agent Enterprise Problem Solving Framework"
+type: software
+authors:
+  - family-names: "陳"
+    given-names: "俊宏"
+    alias: "AI Coach 益力康陳董"
+version: 0.1.0
+date-released: 2026-09-01
+license: MIT
+abstract: "A Visual Agent Design / Visual Agent Capability framework that transforms traditional problem-solving disciplines into agent-executable, verifiable, reusable enterprise capabilities."
