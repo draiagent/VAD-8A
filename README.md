@@ -92,6 +92,7 @@ VAD 應至少呈現：
 ### VAC — Visual Agent Card
 
 VAC 的任務是把已驗證的方法，固化成 Agent 可以重複執行的企業能力規格。
+VAC 另含知識圖卡、任務圖卡、設計圖卡，詳見 Visual-Agent-Design。
 
 建議標準欄位：
 
