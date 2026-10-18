@@ -89,7 +89,7 @@ VAD 應至少呈現：
 
 > **VAD = See the Problem.**
 
-### VAC — Visual Agent Capability
+### VAC — Visual Agent Card
 
 VAC 的任務是把已驗證的方法，固化成 Agent 可以重複執行的企業能力規格。
 
@@ -110,7 +110,7 @@ Owner
 Version
 ```
 
-> **VAC = Execute the Capability.**
+> **VAC = Execute the Card.**
 
 ---
 
